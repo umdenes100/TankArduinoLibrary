@@ -1,6 +1,6 @@
 # Tank Arduino Library
 
-The Tank arduino library enables you to use the DFRTank robots provided by ENES100. In order to use the library, type `#include "tank.h"` in the top of your sketch. This provides you access to the tank class which can be used to control the motors.
+The Tank arduino library enables you to use the DFRTank robots provided by ENES100. In order to use the library, type `#include "Tank.h"` in the top of your sketch. This provides you access to the tank class which can be used to control the motors.
 
 Once you have included the library, you must create a tank object. to do this type: `Tank tank`. `tank` is simply an identifier and can be set to any name you would prefer. Once the object is created, type `tank.begin();` in the setup portion of the code. Now you are able to control the motors.
 
