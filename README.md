@@ -28,6 +28,6 @@ Note: You can ignore this section if you are not using the Tank library to contr
 Also note: A tank uses two or more wheels powered by two independent motors.
 
 |**Motor**  |**Speed Pin**|**Direction Pin**|
-|:-------:  |:-----------:|:---------------:|
+|:---------:|:-----------:|:---------------:|
 |Left Motor |      5      |         4       |
 |Right Motor|      6      |         7       |
