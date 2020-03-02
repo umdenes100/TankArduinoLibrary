@@ -1,6 +1,8 @@
 # Tank Arduino Library
 
-The Tank arduino library enables you to use the DFRTank robots provided by ENES100. The library provides you access to the tank class, which can be used to control an OSV's motors. To configure your own motors to be compatible with this library, refer to the configuration section below. 
+The Tank arduino library is used on the simulator to control the motors on the simulator OSVs.
+
+The library provides you access to the tank class, which can be used to control an OSV's motors. To configure your own motors to be compatible with this library, refer to the configuration section below. 
 
 ## Download and Installation
 
@@ -12,7 +14,7 @@ To download this library, click on the blue **Download** button on the right. Ma
 
 To use the library, you have to direct the compiler to include it in your code. Go to **Sketch > Include Library > Tank** , or add it manually by typing `#include "Tank.h"` at the top of your sketch.
 
-To use the library, call `Tank.begin();` in the setup portion of the code. Now you are able to control the motors.
+To use the library, call `Tank.begin();` in the setup portion of the code. Now you are able to control the motors on the simulator.
 
 ## Functions
 
