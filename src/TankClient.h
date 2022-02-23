@@ -20,7 +20,7 @@ public:
   void turnOffMotors();
   void setRightMotorPWM(int pwm);
   void setLeftMotorPWM(int pwm);
-  void readDistanceSensor(int sensorId);
+  float readDistanceSensor(int sensorId);
 
 };
 
