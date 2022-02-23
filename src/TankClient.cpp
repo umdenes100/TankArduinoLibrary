@@ -9,6 +9,8 @@ void TankClient::begin(){
     pinMode(M1DirectionPin, OUTPUT);
     pinMode(M2SpeedPin, OUTPUT);
     pinMode(M2DirectionPin, OUTPUT);
+    pinMode(trigPin, OUTPUT);
+    pinMode(echoPin, INPUT);
 };
 
 void TankClient::setLeftMotorPWM(int pwm) {
