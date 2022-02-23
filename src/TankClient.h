@@ -7,6 +7,8 @@
 #define M2SpeedPin 6
 #define M1DirectionPin 4
 #define M2DirectionPin 7
+#define TrigPin 8
+#define EchoPin 9
 
 class TankClient {
 
@@ -18,6 +20,7 @@ public:
   void turnOffMotors();
   void setRightMotorPWM(int pwm);
   void setLeftMotorPWM(int pwm);
+  void readDistanceSensor(int sensorId);
 
 };
 
