@@ -47,7 +47,23 @@ void TankClient::setRightMotorPWM(int pwm) {
     }
 };
 
-void TankClient::turnOffMotors(){
+void TankClient::turnOffMotors() {
     digitalWrite(M1SpeedPin,LOW);
     digitalWrite(M2SpeedPin,LOW);
+};
+
+int TankClient::readDistanceSensor(int sensorId) {     //Returns Distance in cm
+    if (sensorId != 1) {
+        return -1;
+    };
+    
+    digitalWrite(trigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+    int duration = pulseIn(echoPin, HIGH);
+    if (duration < 20000 && duration > 0) {
+        return duration * .01715;
+    } else return -1;
 };
