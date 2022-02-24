@@ -54,5 +54,5 @@ Follow the steps below to get your simulator code running on a physical tank.
 
 Testing your simulator code on a physical tank can help give you some insight into how real-world uncertainties like friction and wheel slip will affect your OTV's performance.
 
-See [this GitHub page](https://github.com/umdenes100/TankCodeGuide) for help if you want to write code for the physical tanks without using the tank library.
+See this [GitHub page](https://github.com/umdenes100/TankCodeGuide) for help if you want to write code for the physical tanks without using the tank library.
 
