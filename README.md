@@ -48,9 +48,7 @@ Also note: A tank uses two or more wheels powered by two independent motors.
 Once you have your code working on the simulator using the tank library, you can test the same code on a physical tank. These are small, two-wheel-drive, Arduino Romeo controlled vehicles that are intended to function the same as the simulator tanks. Follow the steps below to get your simulator code running on a physical tank. 
 
 - Download and install the Enes100 and Tank libraries to your computer
-
 - Change the `ENES100.begin()` command to have the correct Aruco marker number on your tank
-
 - Change the `ENES100.begin()` command to have the correct TX/RX pins (10 and 11, respectively)
 
 Testing your simulator code on a physical tank can help give you some insight into how real-world uncertainties like friction and wheel slip will affect your OTV's performance.
