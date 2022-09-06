@@ -6,7 +6,11 @@ The library provides you access to the tank class, which can be used to control 
 
 ## Download and Installation
 
-To download this library, click on the blue **Download** button on the right. Make sure the file is unzipped and move it to the arduino libraries folder (Documents->Arduino->libraries). You must have Arduino IDE version 1.5.0 or above. The most current version of Arduino IDE can be downloaded from the [Arduino website](https://www.arduino.cc/en/Main/Software).
+To download this library, click on the blue **Download** button on the right. Make sure the file is unzipped and move it to the arduino libraries folder (Documents->Arduino->libraries).[1] You must have Arduino IDE version 1.5.0 or above. The most current version of Arduino IDE can be downloaded from the [Arduino website](https://www.arduino.cc/en/Main/Software).
+
+[^1] If this does not worl, you can extract the library inside the Arduino IDE(Sketch->Include Library->Add .ZIP Library...).
+
+![Image of IDE](https://github.com/umdenes100/TankArduinoLibrary/blob/master/img/Arduino_Library_Setup.png)
 
 **If you have an older version of the library on your computer, you _must_ delete it before adding a newer version.** Failure to do this may cause file conflicts and it is not guaranteed that the library will work properly.
 
