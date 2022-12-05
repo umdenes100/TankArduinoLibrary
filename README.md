@@ -85,3 +85,5 @@ Follow the steps below to get your simulator code running on a physical tank:
 Testing your simulator code on a physical tank can help give you some insight into how real-world uncertainties like how friction and motor slop will affect your OTV's performance.
 
 See the page "Physical Tank Guide" for more information on the physical Tanks.
+
+![Image of Tank V3](https://github.com/umdenes100/TankArduinoLibrary/blob/master/img/tankV3.jpeg)
