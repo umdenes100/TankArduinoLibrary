@@ -81,6 +81,7 @@ Follow the steps below to get your simulator code running on a physical tank:
 - Download and install the Enes100 and Tank libraries to your computer (see the Download and Installation section above)
 - Change the `ENES100.begin()` command to have the correct Aruco marker number on your tank
 - Change the `ENES100.begin()` command to have the correct TX/RX pins (52 and 50, respectively)
+- Set the board as an Arduino Mega. **Tools > Board > Arduino Mega or Mega 2560**
 
 Testing your simulator code on a physical tank can help give you some insight into how real-world uncertainties like how friction and motor slop will affect your OTV's performance.
 
