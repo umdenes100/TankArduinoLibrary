@@ -4,7 +4,7 @@ TANK - Traction And Navigation Kit
 
 As the name suggests, the Tanks serve two purposes in ENES100:
 1) The modular design of the physical Tanks allows you to test multiple different tractive systems. For example, experimenting with different wheel sizes to understand the tradeoff between speed and torque. Another example, experiemnting with four-wheel-drive versus two-wheel-drive to see which is better for zero-point turning.
-2) The physical Tanks are designed to mimic the Tank on the simulator. Therefore, you can write and test your code in the simulator, then further test your code on a physical Tank to observe how the robot is affected by variables in the real world (wheel slip, motor slop, vision system inaccuracies, etc.).
+2) The physical Tanks are designed to mimic the Tank on the simulator. You can write and test your code in the simulator, then further test your code on a physical Tank to observe how the robot is affected by variables in the real world (wheel slip, motor slop, vision system inaccuracies, etc.).
 
 The Tank Arduino library is used to control both the simulator Tanks and the physical Tanks. Using the library, you can control the Tank's motors and pull data from it's sensors. 
 
