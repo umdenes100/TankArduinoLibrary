@@ -3,4 +3,7 @@ begin	KEYWORD2
 setLeftMotorPWM	KEYWORD2
 setRightMotorPWM	KEYWORD2
 turnOffMotors	KEYWORD2
-readDistanceSensor KEYWORD2
+readDistanceSensor	KEYWORD2
+setMotorPWM	KEYWORD2
+readIrSensor	KEYWORD2
+readBumpSensor	KEYWORD2

@@ -103,7 +103,7 @@ void TankClient::setRightMotorPWM(int pwm) {
 };
 
 
-// reads and returns distance in cm from specified ultrasonic distance sensor (only valid for sensorIds 1 or 7)
+// reads and returns distance in meters (maximum of 1) from specified ultrasonic distance sensor (only valid for sensorIds 1 or 7)
 float TankClient::readDistanceSensor(int sensorId) {
     // Verify sensorId
     if (sensorId != 1 && sensorId != 7) {return -1;}
