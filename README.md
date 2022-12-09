@@ -14,16 +14,6 @@ To download this library, click on the blue **Download** button on the right. Ma
 
 * If this does not work, you can extract the library inside the Arduino IDE (Sketch->Include Library->Add .ZIP Library...).
 
-<!-- <p align="left">
-  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0786.jpg" alt="Hotrod Tank" width="250">
-  <p> The tank has swappable wheels to test out different wheels in prototyping. </p>
-  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0788.jpg" alt="Internals and wiring" width="250">
-  <p> A picture of the internal wiring of the tank</p>
-  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0789.jpg" alt="Wifi module placement" width="450">
-  <p> Place the 
-wifi module on the tank, which is on the velcro.</p>
-</p> -->
-
 ![Image of IDE](https://raw.githubusercontent.com/umdenes100/TankArduinoLibrary/master/img/Arduino_Library_Setup.png)
 
 **If you have an older version of the library on your computer, you _must_ delete it before adding a newer version.** Failure to do this may cause file conflicts and it is not guaranteed that the library will work properly.
