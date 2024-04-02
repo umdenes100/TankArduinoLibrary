@@ -43,7 +43,8 @@ sets the left motor pwms to the specified pwm speed (pwm: -255 to 255).
 sets the right motor pwms to the specified pwm speed (pwm: -255 to 255).
 
 `Tank.readDistanceSensor(int sensorId)`
-reads and returns distance in meters (maximum of 1) from specified ultrasonic distance sensor.
+reads and returns distance in meters (maximum of 1) from specified ultrasonic distance sensor. It will only give distances to obstacles (white blocks) and not walls!
+You must enable the sensor by clicking on it in top down view of the OTV. It will become less transparent when it is enabled. Ultrasonic 1 is already enabled.
 
 ## Physical Tank Functions
 
